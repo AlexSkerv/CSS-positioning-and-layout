@@ -8,13 +8,16 @@ body {
 }
 
 #jumpMenu {
-    position: fixed;
+   position: fixed;
     left: 0;
     top: 0;
     width: 12%; 
     height: 100vh;
     background: #d4a62a;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     padding: 20px;
 }
 
@@ -58,7 +61,7 @@ header nav {
     display: flex;
     justify-content: space-between; 
     background: black;
-    padding: 15px 0;
+    padding: 20px 0;
     margin: 0; 
 }
 
@@ -111,5 +114,6 @@ footer {
     text-align: center;
     font-weight: bold; 
 }
+
 
 
