@@ -11,7 +11,7 @@ body {
     position: fixed;
     left: 0;
     top: 0;
-    width: 15%;
+    width: 12%; 
     height: 100vh;
     background: #d4a62a;
     padding: 20px;
@@ -19,6 +19,7 @@ body {
 
 #jumpMenu h2 {
     margin-top: 0;
+    font-weight: bold; 
 }
 
 #jumpMenu a {
@@ -26,18 +27,19 @@ body {
     margin: 10px 0;
     color: blue;
     text-decoration: underline;
+    font-weight: bold; 
 }
 
 main {
-    margin-left: 15%;
+    margin-left: 12%; 
     padding-top: 140px;
 }
 
 header {
     position: fixed;
     top: 0;
-    left: 15%;
-    width: 85%;
+    left: 12%; 
+    width: 88%; 
     background: red;
     color: black;
     text-align: center;
@@ -48,14 +50,15 @@ header {
 header p {
     font-size: 28px;
     margin: 0 0 10px 0;
-    font-weight: bold;
+    font-weight: bold; 
 }
 
 header nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-between; 
     background: black;
     padding: 10px 0;
+    margin: 0; 
 }
 
 header button {
@@ -65,11 +68,13 @@ header button {
     padding: 10px 25px;
     margin: 0 15px;
     cursor: pointer;
+    font-weight: bold; 
 }
 
 h1 {
     text-align: center;
     margin-bottom: 40px;
+    font-weight: bold; 
 }
 
 #container {
@@ -85,6 +90,7 @@ article {
     background: white;
     padding: 15px;
     line-height: 1.5;
+    font-weight: bold; 
 }
 
 #thanks {
@@ -95,10 +101,12 @@ article {
     padding: 20px;
     font-size: 24px;
     margin: 0;
+    font-weight: bold; 
 }
 
 footer {
     margin-top: 80px;
     padding: 30px;
     text-align: center;
+    font-weight: bold; 
 }
